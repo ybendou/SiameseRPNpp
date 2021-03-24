@@ -23,7 +23,7 @@ onlyfiles = [f[:-4] for f in listdir(save_train_path) if isfile(join(save_train_
 
 
 counter = 0
-max_limit = 1000
+max_limit = 500
 
 print(f'Start scrapping youtube videos... max limit is {max_limit}')
 for youtube_id in df_train.youtube_id.unique():
